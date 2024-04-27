@@ -8,6 +8,7 @@ public class WithoutX2 {
         System.out.println(withoutX2(str));
     }
 
+
     public static String withoutX2(String str) {
         int len = str.length();
         if (len > 0 && str.startsWith("xx")) return str.substring(2);
