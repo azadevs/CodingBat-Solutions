@@ -9,6 +9,7 @@ public class SumLimit {
         System.out.println(sumLimit(a, b));
     }
 
+
     public static int sumLimit(int a, int b) {
         String sum = String.valueOf(a + b);
         String strA = String.valueOf(a);
