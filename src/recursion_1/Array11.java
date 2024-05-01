@@ -7,8 +7,7 @@ public class Array11 {
     public static void main(String[] args) {
         int n = sc.nextInt();
         int[] arr = getArray(n);
-        int index = sc.nextInt();
-        System.out.println(array11(arr, index));
+        System.out.println(array11(arr, 0));
     }
 
     public static int array11(int[] nums, int index) {
