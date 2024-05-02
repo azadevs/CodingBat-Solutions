@@ -1,8 +1,11 @@
 package recursion_1;
 
+import static base.Base.sc;
+
 public class CountHi2 {
     public static void main(String[] args) {
-        System.out.println(countHi2("axhihixi"));
+        String str = sc.next();
+        System.out.println(countHi2(str));
     }
 
     public static int countHi2(String str) {
