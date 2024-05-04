@@ -12,6 +12,7 @@ public class Front11 {
         int[] a = getArray(nA);
         int[] b = getArray(nB);
         System.out.println(Arrays.toString(front11(a, b)));
+
     }
     public static int[] front11(int[] a, int[] b) {
         int lenA = a.length;
