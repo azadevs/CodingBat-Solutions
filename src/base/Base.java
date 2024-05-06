@@ -1,5 +1,7 @@
 package base;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -13,5 +15,13 @@ public class Base {
             arr[i] = new Random().nextInt(10);
         }
         return arr;
+    }
+
+    public static Map<String, String> getMap() {
+        Map<String, String> map = new HashMap<>();
+        for (int i = 0; i < 3; i++) {
+            map.put(sc.next(), sc.next());
+        }
+        return map;
     }
 }
