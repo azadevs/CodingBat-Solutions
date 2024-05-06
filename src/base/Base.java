@@ -20,7 +20,7 @@ public class Base {
     public static Map<String, String> getMap() {
         Map<String, String> map = new HashMap<>();
         for (int i = 0; i < 3; i++) {
-            map.put(sc.next(), sc.next());
+            map.put(sc.nextLine(), sc.next());
         }
         return map;
     }

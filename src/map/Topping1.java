@@ -1,16 +1,12 @@
 package map;
 
-import java.util.HashMap;
 import java.util.Map;
 
-import static base.Base.sc;
+import static base.Base.getMap;
 
 public class Topping1 {
     public static void main(String[] args) {
-        Map<String, String> map = new HashMap<>();
-        for (int i = 0; i < 3; i++) {
-            map.put(sc.next(), sc.next());
-        }
+        Map<String, String> map = getMap();
         System.out.println(topping1(map));
     }
 
