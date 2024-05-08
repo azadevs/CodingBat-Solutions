@@ -1,9 +1,6 @@
 package base;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class Base {
     public static Scanner sc = new Scanner(System.in);
@@ -23,5 +20,13 @@ public class Base {
             map.put(sc.nextLine(), sc.next());
         }
         return map;
+    }
+
+    public static List<Integer> getList() {
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < 5; i++) {
+            list.add(new Random().nextInt(10));
+        }
+        return list;
     }
 }
