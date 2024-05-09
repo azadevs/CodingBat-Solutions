@@ -25,7 +25,7 @@ public class Base {
     public static List<Integer> getList() {
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
-            list.add(new Random().nextInt(10));
+            list.add(new Random().nextInt(20));
         }
         return list;
     }
