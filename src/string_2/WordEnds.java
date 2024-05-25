@@ -22,4 +22,5 @@ public class WordEnds {
         }
         return newStr.toString();
     }
+
 }
