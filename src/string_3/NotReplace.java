@@ -15,5 +15,6 @@ public class NotReplace {
         }
         return newStr.substring(1);
     }
+
 }
 
